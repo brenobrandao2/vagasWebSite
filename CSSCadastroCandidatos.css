@@ -1,0 +1,83 @@
+#cabecalho { 
+    text-align: center;
+    color: black;
+    font-family: "oboto";
+    margin-top: 10px;
+}
+
+.centertext {
+    text-align: left;
+    color: black;
+}
+
+#retangulo{
+    width:100%;
+    height:50px;
+    background:#83cad3;
+    position:fixed;
+    top:0;
+    left:0;
+}
+
+#formulario {
+    display:flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.grupoCampo{
+    display:flex;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 100%;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.campoTexto{
+    width: 50%;
+    height: 25px;
+}
+
+#campoDescricao{
+    height: 150px;
+    width: 50%;
+}
+
+#botoes {
+    text-align: right;
+    color: black;
+    width: 85%;
+    margin-top: 10px;
+}
+
+.botao1 {
+    background-color: #ee9393;
+    border-radius: 30px;
+    border-width: 0px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    width: 100px;
+    height: 25px;
+}
+.botao1:hover, .botao2:hover{
+    background-color: wheat;
+}
+
+.botao2 {
+    background-color: #93ee9c;
+    border-radius: 30px;
+    border-width: 0px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    width: 100px;
+    height: 25px;
+}
+
