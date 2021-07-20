@@ -1,0 +1,60 @@
+#main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.text {
+    width: 21%;
+    margin-top: 10px;
+}
+
+.campos {
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.labels {
+    width: 20%;
+    
+    margin-top: 10px;
+    margin-left: 30%;
+    
+}
+
+.btn {
+    width: 4%;
+    border-radius: 20px;
+    margin-top: 10px;
+
+    border: none;
+    height: 23px;
+}
+
+#voltar {
+    margin-left: 30%;
+}
+
+.box {
+    text-align: center;
+    margin-top: 10px;
+    box-sizing: border-box;
+    background-color:  rgb(131, 202, 211);
+    outline: 1.5px dashed rgb(131, 202, 211);
+    box-shadow: 0 0 0 10px rgb(131, 202, 211);
+}
+
+#desc {
+    height: 80px;
+}
+
+#salvar {
+    background-color: rgb(4, 214, 21);
+    margin-left: 1%;
+}
+
+#deletar {
+    background-color: rgb(255, 110, 110);
+    margin-left: 64%;
+}
